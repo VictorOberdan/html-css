@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+h1 {
+    border: 12px solid transparent;
+    padding: 10px;
+    border-image: url('img/borda.png') 27 repeat;
+}
