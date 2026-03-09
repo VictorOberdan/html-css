@@ -1,6 +1,5 @@
 # html-css
-Curso de HTML5 e CSS3 do CursoemVideo
+Curso de HTML5 e CSS3 do Curso em Video
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
+Aprendendo a criar sites com o mestre Gustavo Guanabara.
 
-<a href="https://victoroberdan.github.io/html-css/Praticando/Pratica - 01/index.html">Executar o Projeto 01</a>
