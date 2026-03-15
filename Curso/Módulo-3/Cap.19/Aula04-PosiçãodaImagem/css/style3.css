@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+body {
+    height: 98vh;
+    background-image: url('/Curso/Módulo-3/Cap.19/Aula02-Imagemdefundo/img/wallpaper003.jpg');
+    background-position: right bottom;
+}
