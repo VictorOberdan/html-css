@@ -15,7 +15,7 @@ body {
       o background-size não funcionou no shorthand, talvez funcionará no futuro
     */
 
-    background: black url('/Curso/Módulo-3/Cap.19/Aula02-Imagemdefundo/img/wallpaper002.jpg') center center no-repeat fixed;
+    background: black url('../img/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
