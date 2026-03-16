@@ -5,7 +5,7 @@ div.bloco {
     border: 1px solid black;
     border-radius: 20px;
     margin: 10px;
-    background-image: url('/Curso/Módulo-3/Cap.19/Aula02-Imagemdefundo/img/wallpaper003.jpg');
+    background-image: url('../img/wallpaper003.jpg');
 }
 
 div#q1 {
