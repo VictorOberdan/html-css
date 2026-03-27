@@ -8,6 +8,7 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th {
@@ -15,9 +16,30 @@ td, th {
     padding: 10px;
 }
 
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
 thead, tfoot {
-    background-color: gray;
+    background-color: #383838;
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #383838;
+}
+
+tbody > tr:nth-child(odd) { /*ou 2n-1 (células ímpar)*/
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) { /*ou 2n (células par)*/
+    background-color: lightgray;
 }
 
 td.num {
