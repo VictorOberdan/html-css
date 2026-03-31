@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.img1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/416252.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.img2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/493155.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.img3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/269793.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.img4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/595860.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
