@@ -5,32 +5,29 @@
     padding: 0;
 }
 
-div.img1 {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/416252.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
-div.img2 {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/493155.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+section.normal {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    height: 500px;
+    position: absolute;
 }
-div.img3 {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/269793.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+
+section.normal > p {
+    padding: 55px;
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 120px;
+    color: white;
 }
-div.img4 {
-    width: 100vw;
+
+section.imagem {
+    background-image: url('../img/269793.jpg');
     height: 100vh;
-    background-image: url(../img/595860.png);
     background-size: cover;
     background-attachment: fixed;
 }
