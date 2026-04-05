@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--
+        GET 
+
+        Uso: enviar links compartilháveis e dados não sensíveis. Máximo de 3000 bytes (aproximadamente 3000 letras) de dados para envio.
+
+        Impendimento: não enviar dados sensíveis e fotos ou outros tipos de arquivos
+
+        POST
+
+        Uso: enviar dados sensíveis e outros arquivos.
+
+        Obs: mesmo utilizando o método POST, ainda é possível detectar os dados enviados. Portanto é necessário utilizar o protocolo https, que proporciona mais segurança no envio de informações.
+    -->
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
