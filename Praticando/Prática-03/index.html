@@ -9,18 +9,24 @@
 <body>
     <h1>Preencha os campos abaixo</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
-        <div class="campo">
-            <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome" autocomplete="name" required>
-        </div>
-        <div class="campo">
-            <label for="iidade">Idade</label>
-            <input type="number" name="idade" id="iidade" required min="15" max="50">
-        </div>
-        <div class="campo">
-            <label for="iemail">E-mail</label>
-            <input type="email" name="email" autocomplete="email" required>
-        </div>
+        <fieldset class="geral">
+            <legend>Informações Gerais</legend>
+            <div class="campo">
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" autocomplete="name" required>
+            </div>
+            <div class="campo-inline">
+                <div class="inline">
+                    <label for="iidade">Idade</label>
+                    <input type="number" name="idade" id="iidade" required min="15" max="50">
+                </div>
+                <fieldset class="inline">
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label> <br>
+                    <input type="radio" name="sexo" id="isxfem" checked value="F"> <label for="isxfem">Feminino</label> <br>
+                </fieldset>
+            </div>
+        </fieldset>
     </form>
 </body>
 </html>
