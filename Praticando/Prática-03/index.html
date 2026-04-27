@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Preencha os campos abaixo</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <div class="campo">
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required>
+        </div>
+        <div class="campo">
+            <label for="iidade">Idade</label>
+            <input type="number" name="idade" id="iidade" required min="15" max="50">
+        </div>
+        <div class="campo">
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" autocomplete="email" required>
+        </div>
+    </form>
+</body>
+</html>
